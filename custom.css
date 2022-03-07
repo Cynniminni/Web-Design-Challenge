@@ -2,3 +2,11 @@
 body, html {
     background-color: #ededed;
 }
+
+.green-bg-color {
+    background-color: #4aaaa5;
+}
+
+.green-text-color {
+    color: #4aaaa5;
+}
