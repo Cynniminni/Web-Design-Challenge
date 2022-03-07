@@ -7,9 +7,10 @@ body, html {
     background-color: #4aaaa5 !important;
 }
 
-h1 {
+h1, h5 {
     color: #4aaaa5 !important;
 }
+
 
 a.display-contents {
     display: contents;
