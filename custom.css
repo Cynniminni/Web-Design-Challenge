@@ -11,7 +11,11 @@ h1, h5 {
     color: #4aaaa5 !important;
 }
 
-
 a.display-contents {
     display: contents;
+}
+
+img.fit-image {
+    /* max-width: inherit !important; */
+    max-width: 100% !important;
 }
