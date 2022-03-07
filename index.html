@@ -23,20 +23,28 @@
             </div>
 
             <!-- Nav items -->
-            <ul class="nav justify-content-end">        
-                <!-- Dropdown menu -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Plots</a>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Max Temperature</a></li>
-                      <li><a class="dropdown-item" href="#">Humidity</a></li>
-                      <li><a class="dropdown-item" href="#">Cloudiness</a></li>
-                      <li><a class="dropdown-item" href="#">Wind Speed</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">Comparison</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Data</a></li>        
-            </ul>
+            <!-- Button to show when collapsing items -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-1 pt-3">        
+                    <!-- Dropdown menu -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Plots</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+                          <li><a class="dropdown-item" href="#">Humidity</a></li>
+                          <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+                          <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Comparison</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Data</a></li>        
+                </ul>
+            </div>
         </div>
     </nav>            
 
