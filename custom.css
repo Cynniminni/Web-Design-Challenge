@@ -4,9 +4,9 @@ body, html {
 }
 
 .green-bg-color {
-    background-color: #4aaaa5;
+    background-color: #4aaaa5 !important;
 }
 
-.green-text-color {
-    color: #4aaaa5;
+h1 {
+    color: #4aaaa5 !important;
 }
