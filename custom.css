@@ -1,0 +1,4 @@
+/* Change default background color to a light gray */
+body, html {
+    background-color: #ededed;
+}
