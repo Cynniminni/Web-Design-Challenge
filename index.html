@@ -13,8 +13,14 @@
   <body>
     <!-- Navigation Bar -->
     <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Plots</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Plots</a>
+          <ul>
+              <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="#">Humidity</a></li>
+              <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Comparison</a>
