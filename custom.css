@@ -9,6 +9,7 @@ body, html {
 
 h1, h5 {
     color: #4aaaa5 !important;
+    word-wrap: break-word;
 }
 
 a.display-contents {
